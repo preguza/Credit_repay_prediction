@@ -1,10 +1,10 @@
-The task of this project was to identify witch aplicants for loans will manage to repay it back.
+The task of this project was to identify which aplicants for loans will manage to repay it back.
 For this purpose was available complex data consisting of:
 - 7 *.csv* files relationed with 3 different primary keys;
 - 232 initial features;
 - 32,857,652 total number of records.
 
-Performance metric I used ROC AUC. It will help the business get a better understanding about how this algorithm can be used in production and the deployment options (canary deployment/partial automation/full automation etc).
+Performance metric I used was ROC AUC. It will help the business get a better understanding about how this algorithm can be used in production and the deployment options (canary deployment/partial automation/full automation etc).
 
 The data was split in training and test tests. Test set was used only once to evaluate final performance of algorithm.
 After initial data preprocessing, I have trained various models and tested performance using crossvalidation. Most important results are as follows:

@@ -6,7 +6,7 @@ For this purpose was available complex data consisting of:
 
 Performance metric I used was ROC AUC. It will help the business get a better understanding about how this algorithm can be used in production and the deployment options (canary deployment/partial automation/full automation etc).
 
-The data was split in training and test tests. Test set was used only once to evaluate final performance of algorithm.
+The data was split in training and test sets. Test set was used only once to evaluate final performance of algorithm.
 After initial data preprocessing, I have trained various models and tested performance using crossvalidation. Most important results are as follows:
 - **First iteration:**
     - Logistic regression: AUC = 0.7459;
